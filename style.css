@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* * {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+body{
+    background-image: url("img/bg4.jpg");
+    background-size: cover;
+}
+.heading-cen{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.btn-signup1{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.gradient-custom-4{
+    width: 70%;
+    height: 50px;
+    background: linear-gradient(45, 136, 197);
+    background: -webkit-linear-gradient(to right, rgb(45, 111, 197), rgb(45, 111, 197));
+    background: linear-gradient(to right, rgb(45, 111, 197), rgb(45, 111, 197))
+}
+.text-bold{
+    font-size: 20px;
+    font-weight: 499;
+}
+.icon1 p{
+    font-size: 20px;
+}
+.check{
+    font-size: 18px;
+}
+.text{
+    color: #ffffff;
+    text-decoration: none;
+}
+.bttn1{
+    background-color: rgb(44, 106, 221);
+    cursor: pointer;
+  }
+  .bttn1:hover{
+    background-color: rgb(69, 132, 228);
+    
+  }
